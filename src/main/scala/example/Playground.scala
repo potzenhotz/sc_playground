@@ -1,6 +1,6 @@
 package example
 
-object Playground extends Greeting with App {
+object Playground extends Greeting {
   println(greeting)
 
   val curry1 = testCurry1("test")("test2")
